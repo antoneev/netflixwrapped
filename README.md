@@ -4,7 +4,7 @@ This is my version of the Spotify wrapped but using my Cousin and I's Netflix ac
 
 ![Overview Gif](https://github.com/antoneev/netflixwrapped/blob/main/Netflix%20Wrap.gif)
 
-### Steps 1 :one:
+### Step :one:
 
 The first step was to locate the data within Netflix. 
 
@@ -14,13 +14,13 @@ I was able to use Chrome's Inspect tools to find the data within My Account on t
 
 ![Overview Gif](https://github.com/antoneev/netflixwrapped/blob/main/gifs/network.gif)
 
-### Steps 2 :two:
+### Step :two:
 
 The next step was to automate this task so I wouldn't have to do it 101 times. Therefore, I used the selenium in python to accomplish this. You will notice within the code. I open a new page for each link this is because you have to be logged in to Netflix to access the needed information. Opening new tabs was the easiest way to ensure this happened within 1 session. All this information was then dumped into a txt file.
 
 ![Overview Gif](https://github.com/antoneev/netflixwrapped/blob/main/gifs/login-netflixwrap.gif)
 
-### Steps 3 :three:
+### Step :three:
 
 Using the txt file from step 2, the following steps took place within excel:
 * Data was loaded
@@ -36,7 +36,7 @@ Using the txt file from step 2, the following steps took place within excel:
 
 ![Overview Gif](https://github.com/antoneev/netflixwrapped/blob/main/gifs/load-data.gif)
 
-### Steps 4 :four:
+### Step :four:
 
 Then, used the cleaned CSV to gain useful information from the data using pandas. 
 I was able to derive the following information:
@@ -48,4 +48,4 @@ I was able to derive the following information:
 * First Watch for Quarantine
 * Watch Duration for the Year (Seconds)
 
-![Overview Gif](https://github.com/antoneev/netflixwrapped/blob/main/Netflix%20Wrap.gif)
+![Overview Gif](https://github.com/antoneev/netflixwrapped/blob/main/gifs/final%20csv%20and%20notebook.gif)
